@@ -1,5 +1,6 @@
 require 'sinatra'
 require './hello'
+require './hello2'
 
 get '/' do
   hello = Hello.new('Nathan')
